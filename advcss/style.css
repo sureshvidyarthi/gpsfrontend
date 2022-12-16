@@ -1,0 +1,195 @@
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    margin-top: 200px;
+} */
+
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: translate(200px, 200px);
+    transform: translate(0px, 200px);
+} */
+
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: rotate(60deg);
+} */
+
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: scale(2, 4);
+} */
+
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skew(45deg, 60deg);
+    transform: matrix();
+} */
+
+
+/* Transition */
+/* .main {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: width 2s, height 2s, transform 4s, background-color 2s;
+    transition: translate 4s;
+    transition-delay: 4s;
+}
+
+.main:hover {
+    width: 500px;
+    height: 300px;
+    transform: rotate(360deg);
+    background-color: aqua;
+    transform: translate(400px, 400px);
+} */
+
+
+/* Animation */
+/* .main {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+} */
+
+/* @keyframes demo {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: red;
+    }
+} */
+
+/* @keyframes demo {
+    0% {
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+        transform: rotate(30deg);
+    }
+
+    40% {
+        background-color: red;
+        left: 400px;
+        top: 0px;
+        transform: rotate(100deg);
+    }
+
+    60% {
+        background-color: black;
+        left: 400px;
+        top: 400px;
+        transform: rotate(200deg);
+    }
+
+    80% {
+        background-color: yellow;
+        left: 0px;
+        top: 400px;
+        transform: rotate(300deg);
+    }
+
+    100% {
+        background-color: blueviolet;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.main {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+} */
+
+
+
+/* responsive website */
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(239, 216, 239);
+}
+
+div {
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: yellow;
+    }
+
+    div {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:500px) {
+    body {
+        background-color: red;
+    }
+
+    div {
+        display: inline-block;
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width:700px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media screen and (min-width:900px) {
+    body {
+        background-color: cadetblue;
+    }
+}
