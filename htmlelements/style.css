@@ -1,0 +1,25 @@
+/* body {
+    background-color: black;
+} */
+
+/* body {
+    background-image: url("/img.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+
+h1 {
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: purple; */
+
+    border: 50px double purple;
+
+}
