@@ -125,7 +125,7 @@
 
 /* responsive website */
 
-body {
+/* body {
     margin: 0;
 }
 
@@ -192,4 +192,25 @@ div {
     body {
         background-color: cadetblue;
     }
+} */
+
+h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
+
+/* @media screen and (max-width: 400px) {
+    h1 {
+        color: black;
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    h1 {
+        color: white;
+        background-color: orangered;
+    }
+} */
